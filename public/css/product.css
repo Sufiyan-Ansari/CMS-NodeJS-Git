@@ -16,21 +16,22 @@
         {
             display: block;
             width:100%;
+            color:#bd08ce9f;
 
         }
         .form-control input
         {
-            border: 1px solid black;
+            border: 1px solid #bd08ce9f;
             font:inherit;
-            border-radius: 2px;
+            border-radius: 3px;
         }
         button
         {
             font:inherit;
-            border: 1px solid #b3ff00;
+            border: 1px solid #ffffff;
             background: #eb0acd;
             border-radius: 3px;
-            color: aqua;
+            color: #ffffff;
             cursor: pointer;
         }
         button :hover,

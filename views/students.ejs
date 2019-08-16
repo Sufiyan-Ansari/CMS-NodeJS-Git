@@ -1,0 +1,21 @@
+<%- include('includes/head.ejs')%>
+</head>
+<body>
+    <%- include('includes/navigation.ejs')%>
+
+    <main>
+        <h1>Students</h1>
+        <p>List of All Students</p>
+        <% if(SD.length > 0) { for(let s of SD) { %>
+
+            <ul>
+                <li><%= s.title %></li>
+            </ul>
+            <% }} else { %>
+            <h2>Kindly Enter Student name</h2>
+            <% } %>
+
+
+
+    </main>
+<%- include('includes/end.ejs')%>
